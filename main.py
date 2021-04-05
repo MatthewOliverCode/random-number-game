@@ -15,4 +15,5 @@ def game(user_score):
       print(f"You guessed correctly! :D Your score is currently {user_score}")
     else:
       print("Unlucky")
+  print(f"Your score was {user_score}")
 game(user_score)
