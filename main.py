@@ -1,5 +1,5 @@
 import random
-user_guess = input("Guess a number between 1 and 10 (Inclusive) \n —>")
+user_guess = input("Guess a number between 1 and 10 (Inclusive) \n —> ")
 random_number = random.randint(1,10)
 user_score = 0
 
@@ -9,5 +9,5 @@ def game(rand_num,user_guess,user_score):
     user_score += 1
     print(f"You guessed correctly! :D Your score is currently {user_score}")
   else:
-    print("Unlucky")
+    print(f"Unlucky. The randomly generated number was {rand_num}")
 game(random_number,user_guess,user_score)
