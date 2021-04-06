@@ -5,10 +5,9 @@ upper_bound = int(input("Enter the highest number that you want to guess \n\t—
 
 # MAIN PROGRAM
 def game(user_score,lower,upper):
-  rand_num = str(random.randint(lower,upper))
-
+  
   for _ in range(0,5):
-    
+    rand_num = str(random.randint(lower,upper))
     user_guess = input(f"Guess a number between {lower} and {upper} \n\t—> ")
 
     if rand_num == user_guess:
